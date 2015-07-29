@@ -1,7 +1,9 @@
-# Build using Sankey Diagrams
+# Build Dashboard using Sankey Diagrams
 
 Demo: <http://bost.ocks.org/mike/sankey/>
+
 Demo: <http://schafferwilliams.com/finances>
+
 ```js
 var sankey = d3.sankey()
     .size([width, height])
