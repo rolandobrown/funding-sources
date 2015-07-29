@@ -1,4 +1,8 @@
+/* Copyright 2013 Michael Bostock. All rights reserved. Do not copy. */
+
 @import url(http://fonts.googleapis.com/css?family=PT+Serif|PT+Serif:b|PT+Serif:i|PT+Sans|PT+Sans:b);
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
 
 html {
   min-width: 1040px;
@@ -7,7 +11,7 @@ html {
 .ocks-org body {
   background: #fcfcfa;
   color: #333;
-  font-family: "PT Serif", serif;
+  font-family: "Open Serif", serif;
   margin: 1em auto 4em auto;
   position: relative;
   width: 960px;
@@ -20,7 +24,7 @@ html {
 .ocks-org h2,
 .ocks-org h3,
 .ocks-org h4 {
-  font-family: "PT Sans", sans-serif;
+  font-family: "Open Sans", serif;
 }
 
 .ocks-org h1,
@@ -32,7 +36,7 @@ html {
 
 .ocks-org header,
 .ocks-org footer {
-  color: #636363;
+  color: #999;
 }
 
 h1 {
@@ -76,19 +80,21 @@ footer {
 }
 
 footer {
-  margin-top: 8em;
+  margin-top: 2em;
 }
 
 h1 ~ aside {
   font-size: small;
   right: 0;
-  position: absolute;
+  position: left;
   width: 180px;
 }
 
 .attribution {
   font-size: small;
-  margin-bottom: 2em;
+  font-family: "Open Sans", serif;
+  position: left;
+  width: 100%;
 }
 
 body > p, li > p {
@@ -126,7 +132,7 @@ a:not(:hover) {
 }
 
 pre, code, textarea {
-  font-family: "Menlo", monospace;
+  font-family: "Open Sans", serif;
 }
 
 code {
