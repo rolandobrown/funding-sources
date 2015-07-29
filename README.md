@@ -1,4 +1,4 @@
-# Build Dashboard using Sankey Diagrams
+# Build Finance Dashboard using Sankey Diagrams
 
 Demo: <http://schafferwilliams.com/finances>
 
